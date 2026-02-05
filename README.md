@@ -18,7 +18,9 @@ Users should be able to:
 - Use the app comfortably on mobile devices
 - See formatted numbers after finishing input
 
----
+### Screenshot
+
+![Screenshot](./screenshot.jpg)
 
 ### Links
 
