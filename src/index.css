@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --font-space-mono: "Space Mono", sans-serif;
+  --text-xs: 0.8125rem;  /* 12px -> 13px Edge minimal fontSize is 13px */
+  --color-primary-green-300: hsl(172, 61%, 77%);
+  --color-primary-green-400:  hsl(172, 67%, 45%);
+  --color-neutral-green-500: hsl(183, 78%, 24%);
+  --color-neutral-green-900:  hsl(183, 100%, 15%);
+  --color-neutral-grey-500:  hsl(186, 14%, 43%);
+  --color-neutral-grey-400:  hsl(184, 14%, 56%);
+  --color-neutral-grey-200:  hsl(185, 41%, 84%);
+  --color-neutral-grey-50:  hsl(189, 47%, 97%);
+}
+
+@layer base {
+  @font-face {
+    font-family: "Space Mono";
+    src: url("/fonts/space-mono-v17-latin-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+	*, *::before, *::after {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+
+  /* Chrome, Safari, Edge */
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  /* Firefox */
+  .no-spinner {
+    -moz-appearance: textfield;
+  }
+  
+
+  html {
+    font-size: 16px;  /* Explicit because of Edge Browser */
+    font-family: var(--font-space-mono);
+  }
+
+  body {
+    background-color: var( --color-neutral-grey-200);
+  }
+
+}
