@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/FitforLife66/tip-calculator
-- Live Site URL: https://ffl-tip-calculator.netlify.app/
+- Live Site URL: https://f4l-tip-calculator.netlify.app/
 
 ---
 
